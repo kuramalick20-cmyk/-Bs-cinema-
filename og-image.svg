@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="50%" stop-color="#F4A261"/>
+      <stop offset="100%" stop-color="#2A9D8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="628" width="1200" height="2" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- BS Logo mark -->
+  <rect x="480" y="80" width="240" height="240" rx="48" fill="#0d0d18" stroke="#E63946" stroke-width="3"/>
+  <text x="600" y="235" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" fill="#E63946" text-anchor="middle">BS</text>
+  <!-- antenna dots on logo -->
+  <circle cx="600" cy="120" r="8" fill="#E63946"/>
+  <rect x="597" y="95" width="6" height="18" rx="3" fill="#E63946"/>
+  <rect x="575" y="100" width="5" height="14" rx="2.5" fill="#E63946" transform="rotate(-25 577.5 107)"/>
+  <rect x="620" y="100" width="5" height="14" rx="2.5" fill="#E63946" transform="rotate(25 622.5 107)"/>
+
+  <!-- Title -->
+  <text x="600" y="400" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle">BS Cinema</text>
+
+  <!-- Subtitle in Kurdish -->
+  <text x="600" y="470" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="400" fill="#E63946" text-anchor="middle" direction="rtl">ماڵپەڕی سینەمای کوردی</text>
+
+  <!-- Description -->
+  <text x="600" y="520" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#8888aa" text-anchor="middle" direction="rtl">فیلم و زنجیرە و ئەنیمی و کۆمیک — هەمووی لە یەک شوێن</text>
+
+  <!-- Bottom branding bar -->
+  <rect x="0" y="600" width="1200" height="30" fill="#0a0a0f"/>
+  <text x="600" y="620" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#555577" text-anchor="middle">bscinema.app</text>
+</svg>

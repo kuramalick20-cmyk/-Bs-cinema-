@@ -1,0 +1,17 @@
+[functions.translate]
+verify_jwt = true
+
+[functions.comic-translate]
+verify_jwt = true
+
+[functions.ai-chat]
+verify_jwt = false
+
+[functions.ai-subtitles]
+verify_jwt = false
+
+[functions.generate-subtitles]
+verify_jwt = false
+
+[functions.comic-animation]
+verify_jwt = true
